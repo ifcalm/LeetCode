@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 //暴力解法，对数组中的值一一判断
 func search(nums []int, target int) int {
 	//判断特殊情况
@@ -46,8 +44,4 @@ func search2(nums []int, target int) int {
 		}
 	}
 	return -1
-}
-
-func main() {
-	fmt.Println(5 / 4)
 }
